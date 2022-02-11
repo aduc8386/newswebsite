@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px) and ( max-width: 1024px) {
+	.container {
+		max-width: 90%;
+	}
+	
+	.search-modal {
+		width: 90%;
+		height: 60%;
+	}
+
+	.date-range-search {
+		flex-wrap: wrap;
+	}
+
+	.content {
+		flex: 40%;
+	}
+
+	.input-date {
+		flex: 50%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.container {
+		max-width: 100%;
+	}
+
+	.content {
+		flex: 40%;
+	}
+
+	.search-modal {
+		width: 90%;
+		height: 60%;
+	}
+
+	.date-input-outer {
+		flex-wrap: wrap;
+	}
+
+	.date-range-search {
+		flex-wrap: wrap;
+	}
+
+	.label {
+		flex: 30%;
+	}
+
+	.date-input-outer {
+		flex: 70%;
+	}
+
+	.label-ft {
+		margin: 0 0.2rem 0 0.5rem;
+	}
+
+	.input-date {
+		flex: 50%;
+	}
+
+	.search-modal-activated {
+		top: 10%;
+	}
+
+	footer {
+		flex-direction: column;
+	}
+
+}
+
+@media screen and (max-width: 479px) {
+	.container {
+		max-width: 100%;
+	}
+
+	.content {
+		flex: 100%;
+	}
+
+	.search-modal {
+		width: 90%;
+		height: 70%;
+	}
+
+	.date-input-outer {
+		flex-wrap: wrap;
+	}
+
+	.label-ft {
+		margin: 0 0.2rem 0 0.5rem;
+	}
+
+	.label {
+		flex: 40%;
+	}
+
+	.date-input-outer {
+		flex: 60%;
+	}
+
+	.date-range-search {
+		flex-wrap: wrap;
+	}
+
+	.input-date {
+		flex: 40%;
+	}
+
+	.search-modal-activated {
+		top: 10%;
+	}
+
+	footer {
+		flex-direction: column;
+	}
+
+}
